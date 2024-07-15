@@ -1,9 +1,8 @@
 /**
  * @format
  */
-
 import {AppRegistry} from 'react-native';
-import App from './App';
+import {ReduxApp} from './source/redux/ReduxApp';
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => App);
+AppRegistry.registerComponent(appName, () => ReduxApp);
